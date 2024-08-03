@@ -44,8 +44,8 @@ class Registration_Fields {
             <?php
         }
         ?>
-            <input type="hidden" name="latitude" id="latitude" value="<?php echo $user ? esc_attr( get_user_meta( $user->ID, 'latitude', true ) ) : ''; ?>" />
-            <input type="hidden" name="longitude" id="longitude" value="<?php echo $user ? esc_attr( get_user_meta( $user->ID, 'longitude', true ) ) : ''; ?>" />
+            <input type="hidden" name="latitude" id="latitude" placeholder="Latitude" value="<?php echo $user ? esc_attr( get_user_meta( $user->ID, 'latitude', true ) ) : ''; ?>" />
+            <input type="hidden" name="longitude" id="longitude" placeholder="Longitude" value="<?php echo $user ? esc_attr( get_user_meta( $user->ID, 'longitude', true ) ) : ''; ?>" />
         </table>
         <?php
     }
