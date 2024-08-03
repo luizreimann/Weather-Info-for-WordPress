@@ -24,6 +24,12 @@ jQuery(document).ready(function($) {
                                 $("#longitude").attr("type", "text");
                                 $("#latitude").val("");
                                 $("#longitude").val("");
+                                if ($("#latitude-field").length > 0) {
+                                    $("#latitude-field").removeClass("d-none");
+                                }
+                                if ($("#longitude-field").length > 0) {
+                                    $("#longitude-field").removeClass("d-none");
+                                }
                             }
                         });
                     }
