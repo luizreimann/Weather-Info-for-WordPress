@@ -20,6 +20,10 @@ jQuery(document).ready(function($) {
                                 $("#longitude").val(locData[0].lon);
                             } else {
                                 console.log("Coordenadas não encontradas para o endereço fornecido.");
+                                $("#latitude").attr("type", "text");
+                                $("#longitude").attr("type", "text");
+                                $("#latitude").val("");
+                                $("#longitude").val("");
                             }
                         });
                     }
