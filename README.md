@@ -44,4 +44,4 @@ Este plugin adiciona campos de endereço ao formulário de perfil do usuário no
   - Ao preencher o campo **CEP**, os demais campos de endereço e coordenadas (este oculto) são preenchidos automaticamente.
 
 ## Licença
-Este projeto está licenciado sob a licença GNU v3. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a licença GPL v3. Veja o arquivo `LICENSE` para mais detalhes.
